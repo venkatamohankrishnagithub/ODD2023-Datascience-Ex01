@@ -21,9 +21,9 @@ Save the Clean data to the file
 # CODE
 
 ```
-import pandas as pd
+`import` pandas `as` pd
 
-# Cleaning the file Data_set.csv
+[# Cleaning the file Data_set.csv]
 df=vmk.read_csv("Data_set.csv")
 df.head(10)
 df.info()
@@ -35,11 +35,11 @@ df['rating']=df['rating'].fillna(df['rating'].mode()[0])
 df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall_rank'].mode()[0])
 df['watchers']=df['watchers'].fillna(df['watchers'].mode()[0])
 
-# data is cleaned
+[# Data is cleaned]
 print('Data_set file after cleaning:')
 df.isnull().sum()
 
-# Cleaning the file Loan_data.csv
+[# Cleaning the file Loan_data.csv]
 df1=pd.read_csv('Loan_data.csv')
 df1.head(10)
 df1.info()
@@ -51,7 +51,7 @@ df1['LoanAmount']=df1['LoanAmount'].fillna(df1['LoanAmount'].mode()[0])
 df1['Loan_Amount_Term']=df1['Loan_Amount_Term'].fillna(df1['Loan_Amount_Term'].mode()[0])
 df1['Credit_History']=df1['Credit_History'].fillna(df1['Credit_History'].mode()[0])
 
-# data is cleaned
+[# Data is cleaned]
 print('Loan_data file after cleaning:')
 df1.isnull().sum()
 ```
