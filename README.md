@@ -20,8 +20,7 @@ Save the Clean data to the file
 
 # CODE
 
-> i'm a blockquote
-...
+```
 import pandas as pd
 
 # Cleaning the file Data_set.csv
@@ -55,7 +54,8 @@ df1['Credit_History']=df1['Credit_History'].fillna(df1['Credit_History'].mode()[
 # data is cleaned
 print('Loan_data file after cleaning:')
 df1.isnull().sum()
-...
+```
+
 # OUTPUT
 
 ## Data_set.csv file.
