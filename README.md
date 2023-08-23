@@ -62,7 +62,7 @@ df1.isnull().sum()
 
 ![d1-img](https://github.com/venkatamohankrishnagithub/ODD2023-Datascience-Ex01/assets/127727792/d62f6393-0ae5-4097-807b-70a32ba7e5a9)
 
-## Dupplicate Data.
+## Duplicate Data.
 
 ![d2-img](https://github.com/venkatamohankrishnagithub/ODD2023-Datascience-Ex01/assets/127727792/143a1484-d871-4e1e-937f-5badb9ad3de2)
 
